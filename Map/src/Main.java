@@ -43,7 +43,8 @@ public class Main {
         map7.put("name", "whale");
         map7.put("habitat", "ocean");
         animalList.add(map7);
-
+        
+//        用Map.of(key1, value1, key2, value2)，這個語法有一個需要注意的點是它會回傳immutable map，初始化後內容是不可變動的
 //        animalList.add(Map.of("name", "shark", "habitat", "ocean"));
 //        animalList.add(Map.of("name", "bear", "habitat", "land"));
 //        animalList.add(Map.of("name", "moose", "habitat", "land"));
